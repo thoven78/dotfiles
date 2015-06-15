@@ -1,0 +1,16 @@
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[user]
+	name = Stevenson Michel
+	email = thoven87@gmail.com
+[ui]
+	color = true
+[core]
+	editor = atom
+	excludesfile = ~/.gitignore_global
+[pull]
+	rebase = true
+[push]
+	default = matching
